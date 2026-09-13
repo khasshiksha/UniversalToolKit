@@ -1,0 +1,60 @@
+{
+  "name": "universal-toolkit",
+  "version": "1.0.0",
+  "description": "Offline toolkit for PDF, Image, Video, Audio. By RAM B SHAM",
+  "main": "main.js",
+  "author": "RAM B SHAM",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^31.3.0",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.9",
+    "ffmpeg-static": "^5.2.0",
+    "pdf-lib": "^1.17.1"
+  },
+
+"build": {
+  "appId": "com.rambsham.universaltoolkit",
+  "productName": "Universal Toolkit",
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "तपाईंको_GitHub_युजरनेम",
+      "repo": "तपाईंको_रिपोजिटरी_नाम"
+    }
+  ],
+  "win": {
+    "target": "nsis"
+  }
+}
+
+
+  "build": {
+    "appId": "com.rambsham.universaltoolkit",
+    "productName": "Universal Toolkit",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    },
+    "extraResources": [
+      {
+        "from": "bin",
+        "to": "bin",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "Universal Toolkit"
+    }
+  }
+}

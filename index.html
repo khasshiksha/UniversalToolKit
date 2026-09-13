@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Universal Toolkit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo">🧰</div>
+      <div class="brand-text">
+        <div class="brand-title">Universal Toolkit</div>
+        <div class="brand-sub">By RAM B SHAM</div>
+      </div>
+    </div>
+
+    <nav class="nav" id="navRoot">
+
+      <!-- ============ DOCUMENT TOOLS ============ -->
+      <div class="nav-group open" data-group="document">
+        <button class="nav-group-header">
+          <span class="nav-group-icon">📄</span>
+          <span class="nav-group-title">Document Tools</span>
+          <span class="nav-group-arrow">▾</span>
+        </button>
+        <div class="nav-group-items">
+          <button class="nav-btn active" data-tool="pdf-merge">
+            <span class="nav-icon">🔗</span> Merge PDF
+          </button>
+          <button class="nav-btn" data-tool="pdf-split">
+            <span class="nav-icon">✂️</span> Split PDF
+          </button>
+          <button class="nav-btn" data-tool="pdf-compress">
+            <span class="nav-icon">🗜️</span> Compress PDF
+          </button>
+          <button class="nav-btn" data-tool="pdf-rotate">
+            <span class="nav-icon">🔄</span> Rotate PDF
+          </button>
+          <button class="nav-btn" data-tool="pdf-watermark">
+            <span class="nav-icon">💧</span> Watermark PDF
+          </button>
+          <div class="nav-divider"></div>
+          <button class="nav-btn" data-tool="image-to-pdf">
+            <span class="nav-icon">🖼️</span> Image → PDF
+          </button>
+          <button class="nav-btn" data-tool="pdf-to-image">
+            <span class="nav-icon">🖼️</span> PDF → Image
+          </button>
+        </div>
+      </div>
+
+      <!-- ============ IMAGE TOOLS ============ -->
+            <div class="nav-group open" data-group="image">
+        <button class="nav-group-header">
+          <span class="nav-group-icon">🎨</span>
+          <span class="nav-group-title">Image Tools</span>
+          <span class="nav-group-arrow">▾</span>
+        </button>
+        <div class="nav-group-items">
+
+          <button class="nav-btn" data-tool="img-convert">
+            <span class="nav-icon">🔄</span> Convert Format
+          </button>
+
+          <button class="nav-btn" data-tool="img-merge">
+            <span class="nav-icon">🔗</span> Merge Images
+          </button>
+
+          <button class="nav-btn" data-tool="img-compress">
+            <span class="nav-icon">📉</span> Compress Images
+          </button>
+
+          <button class="nav-btn" data-tool="img-resize">
+            <span class="nav-icon">📐</span> Resize Image
+          </button>
+
+          <button class="nav-btn" data-tool="img-heic">
+            <span class="nav-icon">📸</span> HEIC Converter
+          </button>
+
+          <button class="nav-btn" data-tool="img-crop">
+            <span class="nav-icon">✂️</span> Crop Image
+          </button>
+
+          <button class="nav-btn" data-tool="img-favicon">
+            <span class="nav-icon">🔲</span> Favicon Generator
+          </button>
+
+          <button class="nav-btn" data-tool="img-colorpicker">
+            <span class="nav-icon">🎨</span> Color Picker
+          </button>
+
+          <button class="nav-btn" data-tool="img-avif">
+            <span class="nav-icon">🖼️</span> AVIF Converter
+          </button>
+        </div>
+      </div>
+
+
+                  <!-- ============ VIDEO TOOLS ============ -->
+      <div class="nav-group open" data-group="video">
+        <button class="nav-group-header">
+          <span class="nav-group-icon">🎬</span>
+          <span class="nav-group-title">Video Tools</span>
+          <span class="nav-group-arrow">▾</span>
+        </button>
+        <div class="nav-group-items">
+          <button class="nav-btn" data-tool="video-url">
+            <span class="nav-icon">🌐</span> URL → Video
+          </button>
+          <div class="nav-divider"></div>
+          <button class="nav-btn" data-tool="video-trim">
+            <span class="nav-icon">✂️</span> Trim / Cut
+          </button>
+          <button class="nav-btn" data-tool="video-convert">
+            <span class="nav-icon">🔄</span> Convert Format
+          </button>
+          <button class="nav-btn" data-tool="video-to-audio">
+            <span class="nav-icon">🎵</span> Video → Audio
+          </button>
+          <button class="nav-btn" data-tool="video-merge">
+            <span class="nav-icon">🔗</span> Merge Videos
+          </button>
+          <button class="nav-btn" data-tool="video-compress">
+            <span class="nav-icon">📉</span> Compress Video
+          </button>
+          <button class="nav-btn" data-tool="video-resize">
+            <span class="nav-icon">📐</span> Resize Video
+          </button>
+          <button class="nav-btn" data-tool="video-subtitles">
+            <span class="nav-icon">📝</span> Add Subtitles
+          </button>
+        </div>
+      </div>
+
+
+                  <!-- ============ AUDIO TOOLS ============ -->
+      <div class="nav-group open" data-group="audio">
+        <button class="nav-group-header">
+          <span class="nav-group-icon">🎵</span>
+          <span class="nav-group-title">Audio Tools</span>
+          <span class="nav-group-arrow">▾</span>
+        </button>
+        <div class="nav-group-items">
+          <button class="nav-btn active" data-tool="audio-url">
+            <span class="nav-icon">🌐</span> URL → Audio
+          </button>
+          <button class="nav-btn" data-tool="audio-recorder">
+            <span class="nav-icon">🎤</span> Voice Recorder
+          </button>
+          <button class="nav-btn" data-tool="audio-convert">
+            <span class="nav-icon">🔄</span> Convert Format
+          </button>
+          <button class="nav-btn" data-tool="audio-trim">
+            <span class="nav-icon">✂️</span> Trim / Cut
+          </button>
+          <button class="nav-btn" data-tool="audio-metadata">
+            <span class="nav-icon">🏷️</span> Audio Metadata
+          </button>
+          <button class="nav-btn" data-tool="audio-merge">
+            <span class="nav-icon">🔗</span> Merge Audio
+          </button>
+          <button class="nav-btn" data-tool="audio-to-video">
+            <span class="nav-icon">🎼</span> Audio → Video
+          </button>
+          <button class="nav-btn" data-tool="audio-noise">
+            <span class="nav-icon">🎙️</span> Noise Reduce
+          </button>
+        </div>
+      </div>
+
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="badge-offline">Copyright © RAM B SHAM </div>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <!-- ============ PDF MERGE ============ -->
+    <section class="tool-panel active" id="tool-pdf-merge">
+      <header class="panel-header">
+        <h1>🔗 Merge PDF Files</h1>
+        <p>Combine multiple PDF files into one document. Drag to reorder.</p>
+      </header>
+
+      <div class="drop-zone" id="mergeDropZone">
+        <div class="drop-icon">📂</div>
+        <div class="drop-text">Drop PDF files here</div>
+        <div class="drop-sub">or</div>
+        <button class="btn-primary" id="mergeBrowseBtn">Choose Files</button>
+      </div>
+
+      <ul class="file-list" id="mergeFileList"></ul>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="mergeClearBtn">Clear All</button>
+        <button class="btn-primary btn-big" id="mergeRunBtn" disabled>
+          🔗 Merge PDFs
+        </button>
+      </div>
+    </section>
+
+    <!-- ============ PDF SPLIT ============ -->
+    <section class="tool-panel" id="tool-pdf-split">
+      <header class="panel-header">
+        <h1>✂️ Split PDF</h1>
+        <p>Extract pages or split into multiple files.</p>
+      </header>
+
+      <div class="drop-zone" id="splitDropZone">
+        <div class="drop-icon">📄</div>
+        <div class="drop-text">Drop a PDF file here</div>
+        <div class="drop-sub">or</div>
+        <button class="btn-primary" id="splitBrowseBtn">Choose File</button>
+      </div>
+
+      <div class="split-info" id="splitInfo" style="display:none">
+        <div class="info-row">
+          <span class="info-label">File:</span>
+          <span class="info-value" id="splitFileName"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Total pages:</span>
+          <span class="info-value" id="splitPageCount"></span>
+        </div>
+      </div>
+
+      <div class="split-options" id="splitOptions" style="display:none">
+        <label class="radio-label">
+          <input type="radio" name="splitMode" value="extract" checked>
+          <span>Extract specific pages (e.g. 1-3, 5, 7-9)</span>
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="splitMode" value="each">
+          <span>Split every page into separate files</span>
+        </label>
+        <input type="text" id="splitPagesInput" class="text-input"
+               placeholder="Example: 1-3, 5, 7-9">
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="splitClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="splitRunBtn" disabled>
+          ✂️ Split PDF
+        </button>
+      </div>
+    </section>
+
+    
+    <!-- ============ PDF ROTATE ============ -->
+    <section class="tool-panel" id="tool-pdf-rotate">
+      <header class="panel-header">
+        <h1>🔄 Rotate PDF</h1>
+        <p>Rotate all pages or specific pages by 90°, 180°, or 270°.</p>
+      </header>
+
+      <div class="drop-zone" id="rotateDropZone">
+        <div class="drop-icon">🔄</div>
+        <div class="drop-text">Drop a PDF file here</div>
+        <div class="drop-sub">or</div>
+        <button class="btn-primary" id="rotateBrowseBtn">Choose File</button>
+      </div>
+
+      <div class="split-info" id="rotateInfo" style="display:none">
+        <div class="info-row">
+          <span class="info-label">File:</span>
+          <span class="info-value" id="rotateFileName"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Total pages:</span>
+          <span class="info-value" id="rotatePageCount"></span>
+        </div>
+      </div>
+
+      <div class="split-options" id="rotateOptions" style="display:none">
+        <label class="radio-label">
+          <input type="radio" name="rotateApply" value="all" checked>
+          <span>Rotate all pages</span>
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="rotateApply" value="specific">
+          <span>Rotate specific pages</span>
+        </label>
+        <input type="text" id="rotatePagesInput" class="text-input"
+               placeholder="Example: 1-3, 5 (only for 'specific')">
+
+        <div class="rotate-angle-row">
+          <span class="info-label">Angle:</span>
+          <button class="angle-btn active" data-angle="90">90° ↻</button>
+          <button class="angle-btn" data-angle="180">180°</button>
+          <button class="angle-btn" data-angle="270">270° ↺</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="rotateClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="rotateRunBtn" disabled>🔄 Rotate PDF</button>
+      </div>
+    </section>
+
+    <!-- ============ PDF WATERMARK ============ -->
+    <section class="tool-panel" id="tool-pdf-watermark">
+      <header class="panel-header">
+        <h1>💧 Watermark PDF</h1>
+        <p>Add a text watermark to every page.</p>
+      </header>
+
+      <div class="drop-zone" id="watermarkDropZone">
+        <div class="drop-icon">💧</div>
+        <div class="drop-text">Drop a PDF file here</div>
+        <div class="drop-sub">or</div>
+        <button class="btn-primary" id="watermarkBrowseBtn">Choose File</button>
+      </div>
+
+      <div class="split-info" id="watermarkInfo" style="display:none">
+        <div class="info-row">
+          <span class="info-label">File:</span>
+          <span class="info-value" id="watermarkFileName"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Total pages:</span>
+          <span class="info-value" id="watermarkPageCount"></span>
+        </div>
+      </div>
+
+      <div class="split-options" id="watermarkOptions" style="display:none">
+        <label class="info-label">Watermark text:</label>
+        <input type="text" id="watermarkText" class="text-input"
+               placeholder="Example: CONFIDENTIAL" value="CONFIDENTIAL">
+
+        <div class="rotate-angle-row">
+          <span class="info-label">Position:</span>
+          <button class="pos-btn active" data-pos="center">Center</button>
+          <button class="pos-btn" data-pos="diagonal">Diagonal</button>
+          <button class="pos-btn" data-pos="footer">Footer</button>
+        </div>
+
+        <div class="rotate-angle-row">
+          <span class="info-label">Opacity:</span>
+          <input type="range" id="watermarkOpacity" min="5" max="100" value="25" class="slider">
+          <span id="watermarkOpacityVal" class="info-value">25%</span>
+        </div>
+
+        <div class="rotate-angle-row">
+          <span class="info-label">Size:</span>
+          <button class="size-btn active" data-size="medium">Medium</button>
+          <button class="size-btn" data-size="small">Small</button>
+          <button class="size-btn" data-size="large">Large</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="watermarkClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="watermarkRunBtn" disabled>💧 Add Watermark</button>
+      </div>
+    </section>
+
+    <!-- ============ PDF COMPRESS ============ -->
+    <section class="tool-panel" id="tool-pdf-compress">
+      <header class="panel-header">
+        <h1>🗜️ Compress PDF</h1>
+        <p>Optimize and reduce PDF file size.</p>
+      </header>
+
+      <div class="drop-zone" id="compressDropZone">
+        <div class="drop-icon">🗜️</div>
+        <div class="drop-text">Drop a PDF file here</div>
+        <div class="drop-sub">or</div>
+        <button class="btn-primary" id="compressBrowseBtn">Choose File</button>
+      </div>
+
+      <div class="split-info" id="compressInfo" style="display:none">
+        <div class="info-row">
+          <span class="info-label">File:</span>
+          <span class="info-value" id="compressFileName"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Current size:</span>
+          <span class="info-value" id="compressFileSize"></span>
+        </div>
+      </div>
+
+      <div class="info-note">
+        ℹ️ <b>Note:</b> This removes metadata and unused objects, and re-saves with
+        optimized object streams. Typical savings: 5-25%. For image-heavy PDFs,
+        further compression would require Ghostscript (coming in a later update).
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="compressClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="compressRunBtn" disabled>🗜️ Compress PDF</button>
+      </div>
+    </section>
+
+
+    <!-- ============ IMAGE → PDF ============ -->
+    <section class="tool-panel" id="tool-image-to-pdf">
+      <header class="panel-header">
+        <h1>🖼️ Image → PDF</h1>
+        <p>Combine JPG/PNG images into a single PDF.</p>
+      </header>
+
+      <div class="drop-zone" id="i2pDropZone">
+        <div class="drop-icon">🖼️</div>
+        <div class="drop-text">Drop JPG / PNG images here</div>
+        <div class="drop-sub">or</div>
+        <button class="btn-primary" id="i2pBrowseBtn">Choose Images</button>
+      </div>
+
+      <ul class="file-list" id="i2pFileList"></ul>
+
+      <div class="split-options" id="i2pOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Page size:</span>
+          <button class="pagesize-btn active" data-ps="fit">Fit to image</button>
+          <button class="pagesize-btn" data-ps="a4">A4</button>
+          <button class="pagesize-btn" data-ps="letter">Letter</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Margin:</span>
+          <input type="range" id="i2pMargin" min="0" max="50" value="0" class="slider">
+          <span id="i2pMarginVal" class="info-value">0 px</span>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="i2pClearBtn">Clear All</button>
+        <button class="btn-primary btn-big" id="i2pRunBtn" disabled>🖼️ Create PDF</button>
+      </div>
+    </section>
+
+    <!-- ============ PDF → IMAGE ============ -->
+    <section class="tool-panel" id="tool-pdf-to-image">
+      <header class="panel-header">
+        <h1>🖼️ PDF → Image</h1>
+        <p>Export each PDF page as a PNG image.</p>
+      </header>
+
+      <div class="drop-zone" id="p2iDropZone">
+        <div class="drop-icon">📄</div>
+        <div class="drop-text">Drop a PDF file here</div>
+        <div class="drop-sub">or</div>
+        <button class="btn-primary" id="p2iBrowseBtn">Choose File</button>
+      </div>
+
+      <div class="split-info" id="p2iInfo" style="display:none">
+        <div class="info-row">
+          <span class="info-label">File:</span>
+          <span class="info-value" id="p2iFileName"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Total pages:</span>
+          <span class="info-value" id="p2iPageCount"></span>
+        </div>
+      </div>
+
+      <div class="split-options" id="p2iOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Quality (scale):</span>
+          <button class="quality-btn" data-q="1">1×</button>
+          <button class="quality-btn active" data-q="2">2×</button>
+          <button class="quality-btn" data-q="3">3×</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="p2iClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="p2iRunBtn" disabled>🖼️ Export Images</button>
+      </div>
+    </section>
+
+
+
+    <!-- ============ IMAGE CONVERT ============ -->
+    <section class="tool-panel" id="tool-img-convert">
+      <header class="panel-header">
+        <h1>🔄 Convert Image Format</h1>
+        <p>Convert between JPG, PNG, and WEBP. Batch supported.</p>
+      </header>
+
+      <div class="drop-zone" id="imgConvDropZone">
+        <div class="drop-icon">🖼️</div>
+        <div class="drop-text">Drop images here</div>
+        <div class="drop-sub">JPG · PNG · WEBP</div>
+        <button class="btn-primary" id="imgConvBrowseBtn">Choose Images</button>
+      </div>
+
+      <ul class="file-list" id="imgConvList"></ul>
+
+      <div class="split-options" id="imgConvOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Output format:</span>
+          <button class="fmt-btn active" data-fmt="image/jpeg">JPG</button>
+          <button class="fmt-btn" data-fmt="image/png">PNG</button>
+          <button class="fmt-btn" data-fmt="image/webp">WEBP</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Quality:</span>
+          <input type="range" id="imgConvQuality" min="10" max="100" value="90" class="slider">
+          <span id="imgConvQualityVal" class="info-value">90%</span>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="imgConvClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="imgConvRunBtn" disabled>🔄 Convert All</button>
+      </div>
+    </section>
+
+    <!-- ============ IMAGE COMPRESS ============ -->
+    <section class="tool-panel" id="tool-img-compress">
+      <header class="panel-header">
+        <h1>📉 Compress Images</h1>
+        <p>Reduce image file size while keeping quality.</p>
+      </header>
+
+      <div class="drop-zone" id="imgCompDropZone">
+        <div class="drop-icon">📉</div>
+        <div class="drop-text">Drop images here</div>
+        <div class="drop-sub">Best for JPG · WEBP</div>
+        <button class="btn-primary" id="imgCompBrowseBtn">Choose Images</button>
+      </div>
+
+      <ul class="file-list" id="imgCompList"></ul>
+
+      <div class="split-options" id="imgCompOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Compression level:</span>
+          <button class="lvl-btn" data-lvl="95">Light</button>
+          <button class="lvl-btn active" data-lvl="75">Balanced</button>
+          <button class="lvl-btn" data-lvl="50">Strong</button>
+          <button class="lvl-btn" data-lvl="30">Maximum</button>
+        </div>
+        <div class="info-note" style="margin-top:0">
+          ℹ️ Stronger compression = smaller file, lower quality. JPG/WEBP recommended.
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="imgCompClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="imgCompRunBtn" disabled>📉 Compress All</button>
+      </div>
+    </section>
+
+    <!-- ============ IMAGE RESIZE ============ -->
+    <section class="tool-panel" id="tool-img-resize">
+      <header class="panel-header">
+        <h1>📐 Resize Images</h1>
+        <p>Change width & height. Keeps aspect ratio if locked.</p>
+      </header>
+
+      <div class="drop-zone" id="imgResDropZone">
+        <div class="drop-icon">📐</div>
+        <div class="drop-text">Drop images here</div>
+        <div class="drop-sub">JPG · PNG · WEBP</div>
+        <button class="btn-primary" id="imgResBrowseBtn">Choose Images</button>
+      </div>
+
+      <ul class="file-list" id="imgResList"></ul>
+
+      <div class="split-options" id="imgResOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Mode:</span>
+          <button class="rmode-btn active" data-mode="percent">Percentage</button>
+          <button class="rmode-btn" data-mode="pixels">Pixels</button>
+        </div>
+
+        <div class="rotate-angle-row" id="imgResPercentRow">
+          <span class="info-label">Scale:</span>
+          <button class="pct-btn" data-pct="25">25%</button>
+          <button class="pct-btn" data-pct="50">50%</button>
+          <button class="pct-btn" data-pct="75">75%</button>
+          <button class="pct-btn" data-pct="150">150%</button>
+          <button class="pct-btn active" data-pct="100">100%</button>
+        </div>
+
+        <div class="rotate-angle-row" id="imgResPixelsRow" style="display:none">
+          <span class="info-label">Width:</span>
+          <input type="number" id="imgResW" class="text-input" style="width:120px" placeholder="Width" min="1">
+          <span class="info-label">Height:</span>
+          <input type="number" id="imgResH" class="text-input" style="width:120px" placeholder="Height" min="1">
+        </div>
+
+        <div class="rotate-angle-row">
+          <label class="radio-label">
+            <input type="checkbox" id="imgResLockAR" checked>
+            <span>Maintain aspect ratio</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="imgResClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="imgResRunBtn" disabled>📐 Resize All</button>
+      </div>
+    </section>
+
+    <!-- ============ IMAGE ROTATE / FLIP ============ -->
+    <section class="tool-panel" id="tool-img-rotate">
+      <header class="panel-header">
+        <h1>🔃 Rotate / Flip Images</h1>
+        <p>Rotate 90°, 180°, 270° or flip horizontally / vertically.</p>
+      </header>
+
+      <div class="drop-zone" id="imgRotDropZone">
+        <div class="drop-icon">🔃</div>
+        <div class="drop-text">Drop images here</div>
+        <div class="drop-sub">JPG · PNG · WEBP</div>
+        <button class="btn-primary" id="imgRotBrowseBtn">Choose Images</button>
+      </div>
+
+      <ul class="file-list" id="imgRotList"></ul>
+
+      <div class="split-options" id="imgRotOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Action:</span>
+          <button class="ract-btn active" data-act="rotate90">↻ 90°</button>
+          <button class="ract-btn" data-act="rotate180">↻ 180°</button>
+          <button class="ract-btn" data-act="rotate270">↺ 270°</button>
+          <button class="ract-btn" data-act="flipH">⇋ Flip H</button>
+          <button class="ract-btn" data-act="flipV">⇅ Flip V</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="imgRotClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="imgRotRunBtn" disabled>🔃 Apply</button>
+      </div>
+    </section>
+
+    <!-- ============ HEIC CONVERTER ============ -->
+    <section class="tool-panel" id="tool-img-heic">
+      <header class="panel-header">
+        <h1>📸 HEIC Converter</h1>
+        <p>Convert iPhone HEIC/HEIF photos to JPG or PNG.</p>
+      </header>
+
+      <div class="drop-zone" id="heicDropZone">
+        <div class="drop-icon">📸</div>
+        <div class="drop-text">Drop HEIC / HEIF files here</div>
+        <div class="drop-sub">.heic · .heif</div>
+        <button class="btn-primary" id="heicBrowseBtn">Choose Files</button>
+      </div>
+
+      <ul class="file-list" id="heicList"></ul>
+
+      <div class="split-options" id="heicOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Output format:</span>
+          <button class="heic-fmt-btn active" data-fmt="image/jpeg">JPG</button>
+          <button class="heic-fmt-btn" data-fmt="image/png">PNG</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Quality:</span>
+          <input type="range" id="heicQuality" min="10" max="100" value="90" class="slider">
+          <span id="heicQualityVal" class="info-value">90%</span>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="heicClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="heicRunBtn" disabled>📸 Convert</button>
+      </div>
+    </section>
+
+    <!-- ============ CROP IMAGE ============ -->
+    <section class="tool-panel" id="tool-img-crop">
+      <header class="panel-header">
+        <h1>✂️ Crop Image</h1>
+        <p>Drag on the image to select the area you want to keep.</p>
+      </header>
+
+      <div class="drop-zone" id="cropDropZone">
+        <div class="drop-icon">✂️</div>
+        <div class="drop-text">Drop an image here</div>
+        <div class="drop-sub">JPG · PNG · WEBP</div>
+        <button class="btn-primary" id="cropBrowseBtn">Choose Image</button>
+      </div>
+
+      <div class="crop-workspace" id="cropWorkspace" style="display:none">
+        <div class="crop-canvas-wrap">
+          <canvas id="cropCanvas"></canvas>
+        </div>
+        <div class="crop-info-row">
+          <span class="info-label">Selection:</span>
+          <span class="info-value" id="cropSelInfo">—</span>
+        </div>
+        <div class="crop-quick-row">
+          <button class="crop-quick-btn" data-ratio="1">1:1</button>
+          <button class="crop-quick-btn" data-ratio="1.777">16:9</button>
+          <button class="crop-quick-btn" data-ratio="0.75">3:4</button>
+          <button class="crop-quick-btn" data-ratio="0.8">4:5</button>
+          <button class="crop-quick-btn" data-ratio="0">Free</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="cropClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="cropRunBtn" disabled>✂️ Crop & Save</button>
+      </div>
+    </section>
+
+    <!-- ============ FAVICON GENERATOR ============ -->
+    <section class="tool-panel" id="tool-img-favicon">
+      <header class="panel-header">
+        <h1>🔲 Favicon Generator</h1>
+        <p>Generate all favicon sizes (16, 32, 48, 64, 128, 256) from one image.</p>
+      </header>
+
+      <div class="drop-zone" id="favDropZone">
+        <div class="drop-icon">🔲</div>
+        <div class="drop-text">Drop an image here</div>
+        <div class="drop-sub">PNG recommended (square is best)</div>
+        <button class="btn-primary" id="favBrowseBtn">Choose Image</button>
+      </div>
+
+      <div class="split-info" id="favInfo" style="display:none">
+        <div class="info-row">
+          <span class="info-label">File:</span>
+          <span class="info-value" id="favFileName"></span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Original size:</span>
+          <span class="info-value" id="favOrigSize"></span>
+        </div>
+      </div>
+
+      <div class="split-options" id="favOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Sizes to generate:</span>
+          <label class="radio-label"><input type="checkbox" class="fav-size-cb" value="16" checked> 16</label>
+          <label class="radio-label"><input type="checkbox" class="fav-size-cb" value="32" checked> 32</label>
+          <label class="radio-label"><input type="checkbox" class="fav-size-cb" value="48" checked> 48</label>
+          <label class="radio-label"><input type="checkbox" class="fav-size-cb" value="64" checked> 64</label>
+          <label class="radio-label"><input type="checkbox" class="fav-size-cb" value="128" checked> 128</label>
+          <label class="radio-label"><input type="checkbox" class="fav-size-cb" value="256" checked> 256</label>
+        </div>
+        <div class="rotate-angle-row">
+          <label class="radio-label">
+            <input type="checkbox" id="favSquare" checked>
+            <span>Make square (pad transparent)</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="favClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="favRunBtn" disabled>🔲 Generate Favicons</button>
+      </div>
+    </section>
+
+    <!-- ============ COLOR PICKER ============ -->
+    <section class="tool-panel" id="tool-img-colorpicker">
+      <header class="panel-header">
+        <h1>🎨 Color Picker</h1>
+        <p>Click anywhere on the image to pick its color (HEX & RGB).</p>
+      </header>
+
+      <div class="drop-zone" id="cpDropZone">
+        <div class="drop-icon">🎨</div>
+        <div class="drop-text">Drop an image here</div>
+        <div class="drop-sub">JPG · PNG · WEBP</div>
+        <button class="btn-primary" id="cpBrowseBtn">Choose Image</button>
+      </div>
+
+      <div class="crop-workspace" id="cpWorkspace" style="display:none">
+        <div class="crop-canvas-wrap">
+          <canvas id="cpCanvas"></canvas>
+        </div>
+        <div class="cp-result-row">
+          <div class="cp-swatch" id="cpSwatch"></div>
+          <div class="cp-info">
+            <div class="cp-line">
+              <span class="info-label">HEX:</span>
+              <span class="cp-value" id="cpHex">—</span>
+              <button class="cp-copy" data-target="cpHex">📋</button>
+            </div>
+            <div class="cp-line">
+              <span class="info-label">RGB:</span>
+              <span class="cp-value" id="cpRgb">—</span>
+              <button class="cp-copy" data-target="cpRgb">📋</button>
+            </div>
+            <div class="cp-line">
+              <span class="info-label">HSL:</span>
+              <span class="cp-value" id="cpHsl">—</span>
+              <button class="cp-copy" data-target="cpHsl">📋</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="cpClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="cpResetBtn" disabled>Reset Picker</button>
+      </div>
+    </section>
+
+    
+        <!-- ============ MERGE IMAGES ============ -->
+    <section class="tool-panel" id="tool-img-merge">
+      <header class="panel-header">
+        <h1>🔗 Merge Images to PDF</h1>
+        <p>Combine multiple images into a single PDF.</p>
+      </header>
+
+      <div class="drop-zone" id="imgMergeDropZone">
+        <div class="drop-icon">🔗</div>
+        <div class="drop-text">Drop images here</div>
+        <div class="drop-sub">JPG · PNG · WEBP</div>
+        <button class="btn-primary" id="imgMergeBrowseBtn">Choose Images</button>
+      </div>
+
+      <ul class="file-list" id="imgMergeList"></ul>
+
+      <div class="split-options" id="imgMergeOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Paper size:</span>
+          <button class="paper-btn" data-p="A3">A3</button>
+          <button class="paper-btn active" data-p="A4">A4</button>
+          <button class="paper-btn" data-p="A5">A5</button>
+          <button class="paper-btn" data-p="A6">A6</button>
+          <button class="paper-btn" data-p="A7">A7</button>
+          <button class="paper-btn" data-p="A8">A8</button>
+        </div>
+
+        <div class="rotate-angle-row">
+          <span class="info-label">Orientation:</span>
+          <button class="orient-btn active" data-o="portrait">📄 Portrait</button>
+          <button class="orient-btn" data-o="landscape">📃 Landscape</button>
+        </div>
+
+        <div class="rotate-angle-row">
+          <span class="info-label">Layout:</span>
+          <button class="layout-btn active" data-l="1">1 image</button>
+          <button class="layout-btn" data-l="2">2 images</button>
+          <button class="layout-btn" data-l="4">4 images</button>
+          <button class="layout-btn" data-l="6">6 images</button>
+          <button class="layout-btn" data-l="9">9 images</button>
+        </div>
+
+        <div class="rotate-angle-row">
+          <span class="info-label">Arrange:</span>
+          <button class="arrange-btn active" data-a="auto">Auto</button>
+          <button class="arrange-btn" data-a="vertical">माथि-तल ⬇️</button>
+          <button class="arrange-btn" data-a="horizontal">दायाँ-बायाँ ↔</button>
+        </div>
+
+        <div class="rotate-angle-row">
+          <span class="info-label">Margin:</span>
+          <input type="range" id="imgMergeMargin" min="0" max="30" value="10" class="slider">
+          <span id="imgMergeMarginVal" class="info-value">10 mm</span>
+        </div>
+
+        <div class="rotate-angle-row">
+          <label class="radio-label">
+            <input type="checkbox" id="imgMergeLabel" checked>
+            <span>Show filename below each image</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="imgMergeClearBtn">Clear All</button>
+        <button class="btn-primary btn-big" id="imgMergeRunBtn" disabled>🔗 Merge to PDF</button>
+      </div>
+    </section>
+
+
+
+<!-- ============ AVIF CONVERTER ============ -->
+    <section class="tool-panel" id="tool-img-avif">
+      <header class="panel-header">
+        <h1>🖼️ AVIF Converter</h1>
+        <p>Convert images to AVIF (modern, smaller format) or from AVIF to JPG/PNG.</p>
+      </header>
+
+      <div class="drop-zone" id="avifDropZone">
+        <div class="drop-icon">🖼️</div>
+        <div class="drop-text">Drop images here</div>
+        <div class="drop-sub">JPG · PNG · WEBP · AVIF</div>
+        <button class="btn-primary" id="avifBrowseBtn">Choose Images</button>
+      </div>
+
+      <ul class="file-list" id="avifList"></ul>
+
+      <div class="split-options" id="avifOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Output format:</span>
+          <button class="avif-fmt-btn active" data-fmt="image/avif">AVIF</button>
+          <button class="avif-fmt-btn" data-fmt="image/jpeg">JPG</button>
+          <button class="avif-fmt-btn" data-fmt="image/png">PNG</button>
+          <button class="avif-fmt-btn" data-fmt="image/webp">WEBP</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Quality:</span>
+          <input type="range" id="avifQuality" min="10" max="100" value="80" class="slider">
+          <span id="avifQualityVal" class="info-value">80%</span>
+        </div>
+        <div class="info-note" style="margin-top:0">
+          ℹ️ AVIF encoding is supported in Chrome/Edge 85+. Fallback to WebP if not available.
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="avifClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="avifRunBtn" disabled>🖼️ Convert</button>
+      </div>
+    </section>  
+
+
+    <!-- ============ URL → VIDEO ============ -->
+    <section class="tool-panel" id="tool-video-url">
+      <header class="panel-header">
+        <h1>🌐 URL → Video</h1>
+        <p>Download video from YouTube, Facebook, TikTok, Instagram & 1000+ sites.</p>
+      </header>
+
+      <div class="url-input-row">
+        <input type="text" id="vurlUrl" class="url-input"
+               placeholder="https://www.youtube.com/watch?v=...">
+      </div>
+
+      <div class="split-options" style="display:flex">
+        <div class="rotate-angle-row">
+          <span class="info-label">Quality:</span>
+          <button class="vq-btn active" data-q="best">Best</button>
+          <button class="vq-btn" data-q="1080">1080p</button>
+          <button class="vq-btn" data-q="720">720p</button>
+          <button class="vq-btn" data-q="480">480p</button>
+          <button class="vq-btn" data-q="360">360p</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Format:</span>
+          <button class="vfmt-btn active" data-fmt="mp4">MP4</button>
+          <button class="vfmt-btn" data-fmt="mkv">MKV</button>
+          <button class="vfmt-btn" data-fmt="webm">WEBM</button>
+        </div>
+      </div>
+
+      <div class="info-note">
+        ℹ️ Powered by yt-dlp. Works with 1000+ sites. Educational use only.
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="vurlCancelBtn">Cancel</button>
+        <button class="btn-primary btn-big" id="vurlRunBtn">⬇️ Download Video</button>
+      </div>
+
+      <div class="progress-wrap" id="vurlProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="vurlProgressFill"></div></div>
+        <div class="progress-text" id="vurlProgressText">0%</div>
+      </div>
+    </section>
+
+        <!-- ============ URL → AUDIO (Audio Tools) ============ -->
+    <section class="tool-panel" id="tool-audio-url">
+      <header class="panel-header">
+        <h1>🌐 URL → Audio</h1>
+        <p>Extract audio (MP3/M4A/WAV) from any video URL.</p>
+      </header>
+
+      <div class="url-input-row">
+        <input type="text" id="vaudUrl" class="url-input"
+               placeholder="https://www.youtube.com/watch?v=...">
+      </div>
+
+      <div class="cookie-row">
+        <span class="cookie-label">🍪 Cookies from:</span>
+        <select id="vaudBrowser" class="cookie-select">
+          <option value="auto" selected>Auto-detect (recommended)</option>
+          <option value="firefox">Firefox</option>
+          <option value="edge">Microsoft Edge</option>
+          <option value="chrome">Google Chrome</option>
+          <option value="brave">Brave</option>
+          <option value="opera">Opera</option>
+          <option value="vivaldi">Vivaldi</option>
+          <option value="chromium">Chromium</option>
+          <option value="safari">Safari</option>
+          <option value="file">cookies.txt file...</option>
+        </select>
+        <button id="vaudCookiesBtn" class="btn-secondary" style="display:none">Choose File</button>
+        <span id="vaudCookiesName" class="cookie-filename"></span>
+      </div>
+
+      <div class="split-options" style="display:flex">
+        <div class="rotate-angle-row">
+          <span class="info-label">Format:</span>
+          <button class="vaud-fmt-btn active" data-fmt="mp3">MP3</button>
+          <button class="vaud-fmt-btn" data-fmt="m4a">M4A</button>
+          <button class="vaud-fmt-btn" data-fmt="wav">WAV</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Quality:</span>
+          <button class="vaud-q-btn active" data-q="320">320 kbps</button>
+          <button class="vaud-q-btn" data-q="192">192 kbps</button>
+          <button class="vaud-q-btn" data-q="128">128 kbps</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="vaudCancelBtn">Cancel</button>
+        <button class="btn-primary btn-big" id="vaudRunBtn">⬇️ Download Audio</button>
+      </div>
+
+      <div class="progress-wrap" id="vaudProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="vaudProgressFill"></div></div>
+        <div class="progress-text" id="vaudProgressText">0%</div>
+      </div>
+    </section>
+
+    <!-- ============ VIDEO CONVERT ============ -->
+    <section class="tool-panel" id="tool-video-convert">
+      <header class="panel-header">
+        <h1>🔄 Convert Video Format</h1>
+        <p>MP4 ↔ MKV ↔ AVI ↔ MOV ↔ WEBM</p>
+      </header>
+
+      <div class="drop-zone" id="vcDropZone">
+        <div class="drop-icon">🎬</div>
+        <div class="drop-text">Drop a video file here</div>
+        <div class="drop-sub">MP4 · MKV · AVI · MOV · WEBM · FLV</div>
+        <button class="btn-primary" id="vcBrowseBtn">Choose Video</button>
+      </div>
+
+      <div class="split-info" id="vcInfo" style="display:none">
+        <div class="info-row"><span class="info-label">File:</span>
+          <span class="info-value" id="vcFileName"></span></div>
+        <div class="info-row"><span class="info-label">Size:</span>
+          <span class="info-value" id="vcFileSize"></span></div>
+      </div>
+
+      <div class="split-options" id="vcOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Output:</span>
+          <button class="vc-fmt-btn active" data-fmt="mp4">MP4</button>
+          <button class="vc-fmt-btn" data-fmt="mkv">MKV</button>
+          <button class="vc-fmt-btn" data-fmt="avi">AVI</button>
+          <button class="vc-fmt-btn" data-fmt="mov">MOV</button>
+          <button class="vc-fmt-btn" data-fmt="webm">WEBM</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Quality:</span>
+          <button class="vc-q-btn" data-q="high">High</button>
+          <button class="vc-q-btn active" data-q="medium">Medium</button>
+          <button class="vc-q-btn" data-q="low">Low (small)</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="vcClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="vcRunBtn" disabled>🔄 Convert</button>
+      </div>
+
+      <div class="progress-wrap" id="vcProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="vcProgressFill"></div></div>
+        <div class="progress-text" id="vcProgressText">0%</div>
+      </div>
+    </section>
+
+    <!-- ============ VIDEO TO AUDIO ============ -->
+    <section class="tool-panel" id="tool-video-to-audio">
+      <header class="panel-header">
+        <h1>🎵 Video → Audio</h1>
+        <p>Extract audio track from any video file.</p>
+      </header>
+
+      <div class="drop-zone" id="v2aDropZone">
+        <div class="drop-icon">🎵</div>
+        <div class="drop-text">Drop a video file here</div>
+        <div class="drop-sub">MP4 · MKV · AVI · MOV · WEBM</div>
+        <button class="btn-primary" id="v2aBrowseBtn">Choose Video</button>
+      </div>
+
+      <div class="split-info" id="v2aInfo" style="display:none">
+        <div class="info-row"><span class="info-label">File:</span>
+          <span class="info-value" id="v2aFileName"></span></div>
+      </div>
+
+      <div class="split-options" id="v2aOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Output:</span>
+          <button class="v2a-fmt-btn active" data-fmt="mp3">MP3</button>
+          <button class="v2a-fmt-btn" data-fmt="m4a">M4A</button>
+          <button class="v2a-fmt-btn" data-fmt="wav">WAV</button>
+          <button class="v2a-fmt-btn" data-fmt="flac">FLAC</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Quality:</span>
+          <button class="v2a-q-btn" data-q="320">320 kbps</button>
+          <button class="v2a-q-btn active" data-q="192">192 kbps</button>
+          <button class="v2a-q-btn" data-q="128">128 kbps</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="v2aClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="v2aRunBtn" disabled>🎵 Extract Audio</button>
+      </div>
+
+      <div class="progress-wrap" id="v2aProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="v2aProgressFill"></div></div>
+        <div class="progress-text" id="v2aProgressText">0%</div>
+      </div>
+    </section>
+
+    <!-- ============ MERGE VIDEOS ============ -->
+    <section class="tool-panel" id="tool-video-merge">
+      <header class="panel-header">
+        <h1>🔗 Merge Videos</h1>
+        <p>Join multiple videos into one. All videos must have same resolution & codec.</p>
+      </header>
+
+      <div class="drop-zone" id="vmDropZone">
+        <div class="drop-icon">🔗</div>
+        <div class="drop-text">Drop video files here</div>
+        <div class="drop-sub">Drag to reorder</div>
+        <button class="btn-primary" id="vmBrowseBtn">Choose Videos</button>
+      </div>
+
+      <ul class="file-list" id="vmList"></ul>
+
+      <div class="info-note">
+        ⚠️ All videos should have the <b>same resolution, codec & framerate</b>. Otherwise merge may fail or produce artifacts. Use "Convert Format" to normalize first.
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="vmClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="vmRunBtn" disabled>🔗 Merge</button>
+      </div>
+
+      <div class="progress-wrap" id="vmProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="vmProgressFill"></div></div>
+        <div class="progress-text" id="vmProgressText">Merging...</div>
+      </div>
+    </section>
+
+    <!-- ============ COMPRESS VIDEO ============ -->
+    <section class="tool-panel" id="tool-video-compress">
+      <header class="panel-header">
+        <h1>📉 Compress Video</h1>
+        <p>Reduce video file size while keeping good quality.</p>
+      </header>
+
+      <div class="drop-zone" id="vcmpDropZone">
+        <div class="drop-icon">📉</div>
+        <div class="drop-text">Drop a video file here</div>
+        <div class="drop-sub">MP4 · MKV · MOV · WEBM</div>
+        <button class="btn-primary" id="vcmpBrowseBtn">Choose Video</button>
+      </div>
+
+      <div class="split-info" id="vcmpInfo" style="display:none">
+        <div class="info-row"><span class="info-label">File:</span>
+          <span class="info-value" id="vcmpFileName"></span></div>
+        <div class="info-row"><span class="info-label">Original size:</span>
+          <span class="info-value" id="vcmpFileSize"></span></div>
+      </div>
+
+      <div class="split-options" id="vcmpOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Level:</span>
+          <button class="vcmp-lvl-btn" data-lvl="light">Light</button>
+          <button class="vcmp-lvl-btn active" data-lvl="balanced">Balanced</button>
+          <button class="vcmp-lvl-btn" data-lvl="strong">Strong</button>
+          <button class="vcmp-lvl-btn" data-lvl="extreme">Extreme</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Resolution:</span>
+          <button class="vcmp-res-btn active" data-res="keep">Keep original</button>
+          <button class="vcmp-res-btn" data-res="720">Max 720p</button>
+          <button class="vcmp-res-btn" data-res="480">Max 480p</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="vcmpClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="vcmpRunBtn" disabled>📉 Compress</button>
+      </div>
+
+      <div class="progress-wrap" id="vcmpProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="vcmpProgressFill"></div></div>
+        <div class="progress-text" id="vcmpProgressText">0%</div>
+      </div>
+    </section>
+
+    <!-- ============ RESIZE VIDEO ============ -->
+    <section class="tool-panel" id="tool-video-resize">
+      <header class="panel-header">
+        <h1>📐 Resize Video</h1>
+        <p>Change video resolution to presets or custom size.</p>
+      </header>
+
+      <div class="drop-zone" id="vresDropZone">
+        <div class="drop-icon">📐</div>
+        <div class="drop-text">Drop a video file here</div>
+        <div class="drop-sub">MP4 · MKV · MOV · WEBM</div>
+        <button class="btn-primary" id="vresBrowseBtn">Choose Video</button>
+      </div>
+
+      <div class="split-info" id="vresInfo" style="display:none">
+        <div class="info-row"><span class="info-label">File:</span>
+          <span class="info-value" id="vresFileName"></span></div>
+      </div>
+
+      <div class="split-options" id="vresOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Preset:</span>
+          <button class="vres-preset-btn" data-w="3840" data-h="2160">4K</button>
+          <button class="vres-preset-btn" data-w="1920" data-h="1080">1080p</button>
+          <button class="vres-preset-btn" data-w="1280" data-h="720">720p</button>
+          <button class="vres-preset-btn" data-w="854" data-h="480">480p</button>
+          <button class="vres-preset-btn" data-w="640" data-h="360">360p</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Custom:</span>
+          <input type="number" id="vresW" class="text-input" style="width:120px" placeholder="Width" min="16">
+          <span class="info-label">×</span>
+          <input type="number" id="vresH" class="text-input" style="width:120px" placeholder="Height" min="16">
+          <label class="radio-label">
+            <input type="checkbox" id="vresLockAR" checked>
+            <span>Keep AR</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="vresClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="vresRunBtn" disabled>📐 Resize</button>
+      </div>
+
+      <div class="progress-wrap" id="vresProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="vresProgressFill"></div></div>
+        <div class="progress-text" id="vresProgressText">0%</div>
+      </div>
+    </section>
+
+    <!-- ============ ADD SUBTITLES ============ -->
+    <section class="tool-panel" id="tool-video-subtitles">
+      <header class="panel-header">
+        <h1>📝 Add Subtitles</h1>
+        <p>Burn SRT subtitles permanently into the video.</p>
+      </header>
+
+      <div class="drop-zone" id="vsubDropZone">
+        <div class="drop-icon">🎬</div>
+        <div class="drop-text">Drop a video file here</div>
+        <div class="drop-sub">Step 1: Choose video</div>
+        <button class="btn-primary" id="vsubBrowseBtn">Choose Video</button>
+      </div>
+
+      <div class="split-info" id="vsubInfo" style="display:none">
+        <div class="info-row"><span class="info-label">Video:</span>
+          <span class="info-value" id="vsubFileName"></span></div>
+      </div>
+
+      <div class="url-input-row" id="vsubSubRow" style="display:none">
+        <input type="text" id="vsubSubPath" class="url-input" placeholder="No subtitle file chosen" readonly>
+        <button class="btn-secondary" id="vsubSubBtn">Choose SRT</button>
+      </div>
+
+      <div class="split-options" id="vsubOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Font size:</span>
+          <button class="vsub-size-btn" data-s="16">Small</button>
+          <button class="vsub-size-btn active" data-s="22">Medium</button>
+          <button class="vsub-size-btn" data-s="30">Large</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Position:</span>
+          <button class="vsub-pos-btn active" data-p="bottom">Bottom</button>
+          <button class="vsub-pos-btn" data-p="top">Top</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="vsubClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="vsubRunBtn" disabled>📝 Add Subtitles</button>
+      </div>
+
+      <div class="progress-wrap" id="vsubProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="vsubProgressFill"></div></div>
+        <div class="progress-text" id="vsubProgressText">0%</div>
+      </div>
+    </section>
+
+    <!-- ============ TRIM / CUT ============ -->
+    <section class="tool-panel" id="tool-video-trim">
+      <header class="panel-header">
+        <h1>✂️ Trim / Cut Video</h1>
+        <p>Remove unwanted parts from the beginning or end.</p>
+      </header>
+
+      <div class="drop-zone" id="vtrimDropZone">
+        <div class="drop-icon">✂️</div>
+        <div class="drop-text">Drop a video here</div>
+        <div class="drop-sub">MP4 · MKV · MOV · WEBM · AVI</div>
+        <button class="btn-primary" id="vtrimBrowseBtn">Choose Video</button>
+      </div>
+
+      <div class="trim-workspace" id="vtrimWorkspace" style="display:none">
+        <video id="vtrimPreview" class="trim-video" controls preload="metadata"></video>
+
+        <div class="trim-range-wrap">
+          <input type="range" id="vtrimStartRange" class="trim-range"
+                 min="0" max="100" step="0.05" value="0">
+          <input type="range" id="vtrimEndRange" class="trim-range trim-range-end"
+                 min="0" max="100" step="0.05" value="100">
+        </div>
+
+        <div class="trim-row">
+          <div class="trim-col">
+            <span class="info-label">Start time:</span>
+            <input type="text" id="vtrimStart" class="trim-input" value="00:00:00.0">
+            <button class="btn-secondary btn-sm" id="vtrimSetStart">📍 Set from player</button>
+          </div>
+          <div class="trim-col">
+            <span class="info-label">End time:</span>
+            <input type="text" id="vtrimEnd" class="trim-input" value="00:00:00.0">
+            <button class="btn-secondary btn-sm" id="vtrimSetEnd">📍 Set from player</button>
+          </div>
+        </div>
+
+        <div class="trim-row trim-summary">
+          <span class="info-label">Duration:</span>
+          <span class="info-value" id="vtrimDuration">00:00:00.0</span>
+          <button class="btn-secondary btn-sm" id="vtrimPlaySelection">▶️ Preview selection</button>
+          <button class="btn-secondary btn-sm" id="vtrimReset">🔄 Reset</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="vtrimClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="vtrimRunBtn" disabled>✂️ Trim Video</button>
+      </div>
+
+      <div class="progress-wrap" id="vtrimProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="vtrimProgressFill"></div></div>
+        <div class="progress-text" id="vtrimProgressText">0%</div>
+      </div>
+    </section>
+
+        <!-- ============ VOICE RECORDER ============ -->
+    <section class="tool-panel" id="tool-audio-recorder">
+      <header class="panel-header">
+        <h1>🎤 Voice Recorder</h1>
+        <p>Record audio from your microphone.</p>
+      </header>
+
+      <div class="recorder-box">
+        <div class="recorder-time" id="recTime">00:00:00</div>
+        <div class="recorder-status" id="recStatus">Ready</div>
+        <div class="recorder-controls">
+          <button class="btn-primary btn-big" id="recStartBtn">🎤 Start Recording</button>
+          <button class="btn-secondary btn-big" id="recStopBtn" disabled>⏹️ Stop</button>
+        </div>
+      </div>
+
+      <div class="split-options" id="recOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Output format:</span>
+          <button class="rec-fmt-btn active" data-fmt="mp3">MP3</button>
+          <button class="rec-fmt-btn" data-fmt="m4a">M4A</button>
+          <button class="rec-fmt-btn" data-fmt="wav">WAV</button>
+          <button class="rec-fmt-btn" data-fmt="webm">WEBM</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="recClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="recSaveBtn" disabled>💾 Save Recording</button>
+      </div>
+    </section>
+
+    <!-- ============ AUDIO CONVERT ============ -->
+    <section class="tool-panel" id="tool-audio-convert">
+      <header class="panel-header">
+        <h1>🔄 Convert Audio Format</h1>
+        <p>MP3 ↔ M4A ↔ WAV ↔ FLAC ↔ OGG ↔ AAC</p>
+      </header>
+
+      <div class="drop-zone" id="aconvDropZone">
+        <div class="drop-icon">🎵</div>
+        <div class="drop-text">Drop audio files here</div>
+        <div class="drop-sub">MP3 · M4A · WAV · FLAC · OGG · AAC</div>
+        <button class="btn-primary" id="aconvBrowseBtn">Choose Audio</button>
+      </div>
+
+      <ul class="file-list" id="aconvList"></ul>
+
+      <div class="split-options" id="aconvOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Output format:</span>
+          <button class="aconv-fmt-btn active" data-fmt="mp3">MP3</button>
+          <button class="aconv-fmt-btn" data-fmt="m4a">M4A</button>
+          <button class="aconv-fmt-btn" data-fmt="wav">WAV</button>
+          <button class="aconv-fmt-btn" data-fmt="flac">FLAC</button>
+          <button class="aconv-fmt-btn" data-fmt="ogg">OGG</button>
+        </div>
+        <div class="rotate-angle-row">
+          <span class="info-label">Bitrate:</span>
+          <button class="aconv-q-btn" data-q="320">320k</button>
+          <button class="aconv-q-btn active" data-q="192">192k</button>
+          <button class="aconv-q-btn" data-q="128">128k</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="aconvClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="aconvRunBtn" disabled>🔄 Convert</button>
+      </div>
+
+      <div class="progress-wrap" id="aconvProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="aconvProgressFill"></div></div>
+        <div class="progress-text" id="aconvProgressText">0%</div>
+      </div>
+    </section>
+
+    <!-- ============ AUDIO TRIM ============ -->
+    <section class="tool-panel" id="tool-audio-trim">
+      <header class="panel-header">
+        <h1>✂️ Trim / Cut Audio</h1>
+        <p>Cut a section from any audio file.</p>
+      </header>
+
+      <div class="drop-zone" id="atrimDropZone">
+        <div class="drop-icon">✂️</div>
+        <div class="drop-text">Drop audio here</div>
+        <div class="drop-sub">MP3 · M4A · WAV · FLAC · OGG</div>
+        <button class="btn-primary" id="atrimBrowseBtn">Choose Audio</button>
+      </div>
+
+      <div class="trim-workspace" id="atrimWorkspace" style="display:none">
+        <audio id="atrimPreview" class="trim-video" controls preload="metadata" style="height:60px"></audio>
+
+        <div class="trim-range-wrap">
+          <input type="range" id="atrimStartRange" class="trim-range" min="0" max="100" step="0.05" value="0">
+          <input type="range" id="atrimEndRange" class="trim-range trim-range-end" min="0" max="100" step="0.05" value="100">
+        </div>
+
+        <div class="trim-row">
+          <div class="trim-col">
+            <span class="info-label">Start:</span>
+            <input type="text" id="atrimStart" class="trim-input" value="00:00:00.0">
+            <button class="btn-secondary btn-sm" id="atrimSetStart">📍 Set</button>
+          </div>
+          <div class="trim-col">
+            <span class="info-label">End:</span>
+            <input type="text" id="atrimEnd" class="trim-input" value="00:00:00.0">
+            <button class="btn-secondary btn-sm" id="atrimSetEnd">📍 Set</button>
+          </div>
+        </div>
+
+        <div class="trim-row trim-summary">
+          <span class="info-label">Duration:</span>
+          <span class="info-value" id="atrimDuration">00:00:00.0</span>
+          <button class="btn-secondary btn-sm" id="atrimPlaySelection">▶️ Preview</button>
+          <button class="btn-secondary btn-sm" id="atrimReset">🔄 Reset</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="atrimClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="atrimRunBtn" disabled>✂️ Trim Audio</button>
+      </div>
+
+      <div class="progress-wrap" id="atrimProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="atrimProgressFill"></div></div>
+        <div class="progress-text" id="atrimProgressText">0%</div>
+      </div>
+    </section>
+
+    <!-- ============ AUDIO METADATA ============ -->
+    <section class="tool-panel" id="tool-audio-metadata">
+      <header class="panel-header">
+        <h1>🏷️ Audio Metadata Editor</h1>
+        <p>Edit title, artist, album, year & genre tags.</p>
+      </header>
+
+      <div class="drop-zone" id="ametaDropZone">
+        <div class="drop-icon">🏷️</div>
+        <div class="drop-text">Drop an audio file here</div>
+        <div class="drop-sub">MP3 · M4A · FLAC · OGG</div>
+        <button class="btn-primary" id="ametaBrowseBtn">Choose Audio</button>
+      </div>
+
+      <div class="split-info" id="ametaInfo" style="display:none">
+        <div class="info-row"><span class="info-label">File:</span>
+          <span class="info-value" id="ametaFileName"></span></div>
+      </div>
+
+      <div class="split-options" id="ametaOptions" style="display:none">
+        <div class="meta-row">
+          <span class="info-label">Title:</span>
+          <input type="text" id="ametaTitle" class="text-input" placeholder="Song title">
+        </div>
+        <div class="meta-row">
+          <span class="info-label">Artist:</span>
+          <input type="text" id="ametaArtist" class="text-input" placeholder="Artist name">
+        </div>
+        <div class="meta-row">
+          <span class="info-label">Album:</span>
+          <input type="text" id="ametaAlbum" class="text-input" placeholder="Album name">
+        </div>
+        <div class="meta-row">
+          <span class="info-label">Year:</span>
+          <input type="text" id="ametaYear" class="text-input" placeholder="2026" style="max-width:120px">
+          <span class="info-label">Genre:</span>
+          <input type="text" id="ametaGenre" class="text-input" placeholder="Pop" style="max-width:180px">
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="ametaClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="ametaRunBtn" disabled>🏷️ Save Metadata</button>
+      </div>
+    </section>
+
+    <!-- ============ MERGE AUDIO ============ -->
+    <section class="tool-panel" id="tool-audio-merge">
+      <header class="panel-header">
+        <h1>🔗 Merge Audio Files</h1>
+        <p>Join multiple audio files into one. Drag to reorder.</p>
+      </header>
+
+      <div class="drop-zone" id="amergeDropZone">
+        <div class="drop-icon">🔗</div>
+        <div class="drop-text">Drop audio files here</div>
+        <div class="drop-sub">MP3 · M4A · WAV · FLAC · OGG</div>
+        <button class="btn-primary" id="amergeBrowseBtn">Choose Audio</button>
+      </div>
+
+      <ul class="file-list" id="amergeList"></ul>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="amergeClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="amergeRunBtn" disabled>🔗 Merge Audio</button>
+      </div>
+
+      <div class="progress-wrap" id="amergeProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="amergeProgressFill"></div></div>
+        <div class="progress-text" id="amergeProgressText">Merging...</div>
+      </div>
+    </section>
+
+    <!-- ============ AUDIO → VIDEO ============ -->
+    <section class="tool-panel" id="tool-audio-to-video">
+      <header class="panel-header">
+        <h1>🎼 Audio → Video</h1>
+        <p>Combine an audio track with a still image to create a video.</p>
+      </header>
+
+      <div class="drop-zone" id="a2vDropZone">
+        <div class="drop-icon">🎵</div>
+        <div class="drop-text">Drop an audio file here</div>
+        <div class="drop-sub">Step 1: Choose audio</div>
+        <button class="btn-primary" id="a2vBrowseBtn">Choose Audio</button>
+      </div>
+
+      <div class="split-info" id="a2vInfo" style="display:none">
+        <div class="info-row"><span class="info-label">Audio:</span>
+          <span class="info-value" id="a2vFileName"></span></div>
+      </div>
+
+      <div class="url-input-row" id="a2vImgRow" style="display:none">
+        <input type="text" id="a2vImgPath" class="url-input" placeholder="No image chosen" readonly>
+        <button class="btn-secondary" id="a2vImgBtn">🖼️ Choose Image</button>
+      </div>
+
+      <div class="split-options" id="a2vOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Resolution:</span>
+          <button class="a2v-res-btn" data-w="1920" data-h="1080">1080p</button>
+          <button class="a2v-res-btn active" data-w="1280" data-h="720">720p</button>
+          <button class="a2v-res-btn" data-w="854" data-h="480">480p</button>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="a2vClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="a2vRunBtn" disabled>🎼 Create Video</button>
+      </div>
+
+      <div class="progress-wrap" id="a2vProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="a2vProgressFill"></div></div>
+        <div class="progress-text" id="a2vProgressText">0%</div>
+      </div>
+    </section>
+
+    <!-- ============ NOISE REDUCE ============ -->
+    <section class="tool-panel" id="tool-audio-noise">
+      <header class="panel-header">
+        <h1>🎙️ Noise Reduce</h1>
+        <p>Reduce background noise from audio recordings.</p>
+      </header>
+
+      <div class="drop-zone" id="anoiseDropZone">
+        <div class="drop-icon">🎙️</div>
+        <div class="drop-text">Drop audio here</div>
+        <div class="drop-sub">MP3 · M4A · WAV · FLAC · OGG</div>
+        <button class="btn-primary" id="anoiseBrowseBtn">Choose Audio</button>
+      </div>
+
+      <div class="split-info" id="anoiseInfo" style="display:none">
+        <div class="info-row"><span class="info-label">File:</span>
+          <span class="info-value" id="anoiseFileName"></span></div>
+      </div>
+
+      <div class="split-options" id="anoiseOptions" style="display:none">
+        <div class="rotate-angle-row">
+          <span class="info-label">Strength:</span>
+          <button class="anoise-lvl-btn" data-lvl="light">Light</button>
+          <button class="anoise-lvl-btn active" data-lvl="medium">Medium</button>
+          <button class="anoise-lvl-btn" data-lvl="strong">Strong</button>
+          <button class="anoise-lvl-btn" data-lvl="extreme">Extreme</button>
+        </div>
+        <div class="info-note" style="margin-top:0">
+          ℹ️ Uses ffmpeg's FFT denoiser. Best for constant background noise (fan, hum, hiss).
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button class="btn-secondary" id="anoiseClearBtn">Clear</button>
+        <button class="btn-primary btn-big" id="anoiseRunBtn" disabled>🎙️ Reduce Noise</button>
+      </div>
+
+      <div class="progress-wrap" id="anoiseProgress" style="display:none">
+        <div class="progress-bar"><div class="progress-fill" id="anoiseProgressFill"></div></div>
+        <div class="progress-text" id="anoiseProgressText">0%</div>
+      </div>
+    </section>
+
+
+  
+
+  </main>
+
+  <!-- Global Loading Overlay -->
+  <div class="overlay" id="overlay">
+    <div class="overlay-box">
+      <div class="spinner"></div>
+      <div class="overlay-text" id="overlayText">Working...</div>
+    </div>
+  </div>
+
+  <!-- Toast Notifications -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- External libraries -->
+  <script src="libs/pdf-lib.min.js"></script>
+  <script src="libs/fontkit.umd.min.js"></script>
+  <script src="libs/pdf.min.js"></script>
+  <script src="libs/heic2any.min.js"></script>
+
+  <!-- Core (shared helpers) - MUST BE FIRST -->
+  <script src="js/core.js"></script>
+
+  <!-- Document Tools -->
+  <script src="js/document-tools/pdf-merge.js"></script>
+  <script src="js/document-tools/pdf-split.js"></script>
+  <script src="js/document-tools/pdf-compress.js"></script>
+  <script src="js/document-tools/pdf-rotate.js"></script>
+  <script src="js/document-tools/pdf-watermark.js"></script>
+  <script src="js/document-tools/image-to-pdf.js"></script>
+  <script src="js/document-tools/pdf-to-image.js"></script>
+
+  <!-- Image Tools -->
+  <script src="js/image-tools/img-convert.js"></script>
+  <script src="js/image-tools/img-compress.js"></script>
+  <script src="js/image-tools/img-resize.js"></script>
+  <script src="js/image-tools/img-rotate.js"></script>
+  <script src="js/image-tools/img-heic.js"></script>
+  <script src="js/image-tools/img-crop.js"></script>
+  <script src="js/image-tools/img-favicon.js"></script>
+  <script src="js/image-tools/img-colorpicker.js"></script>
+  <script src="js/image-tools/img-avif.js"></script>
+  <script src="js/image-tools/img-merge.js"></script>
+
+  <!-- Video Tools -->
+  <script src="js/video-tools/video-url.js"></script>
+  <script src="js/video-tools/video-trim.js"></script>
+  <script src="js/video-tools/video-convert.js"></script>
+  <script src="js/video-tools/video-to-audio.js"></script>
+  <script src="js/video-tools/video-merge.js"></script>
+  <script src="js/video-tools/video-compress.js"></script>
+  <script src="js/video-tools/video-resize.js"></script>
+  <script src="js/video-tools/video-subtitles.js"></script>
+
+  <!-- Audio Tools -->
+  <script src="js/audio-tools/url-audio.js"></script>
+  <script src="js/audio-tools/audio-recorder.js"></script>
+  <script src="js/audio-tools/audio-convert.js"></script>
+  <script src="js/audio-tools/audio-trim.js"></script>
+  <script src="js/audio-tools/audio-metadata.js"></script>
+  <script src="js/audio-tools/audio-merge.js"></script>
+  <script src="js/audio-tools/audio-to-video.js"></script>
+  <script src="js/audio-tools/audio-noise.js"></script>
+
+
+
+</body>
+</html>
